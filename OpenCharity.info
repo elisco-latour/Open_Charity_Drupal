@@ -4,3 +4,22 @@ version = VERSION
 core = 7.x
 stylesheets[all][] = style.css
 scripts[] = main.js
+
+; Define the different regions of the theme
+regions[header] = Header
+regions[oc_featured] = OC Featured section
+regions[oc_events] = OC events section
+regions[oc_involved_heading] = OC involved heading
+regions[oc_involved_1] = OC involved block 1
+regions[oc_involved_2] = OC involved block 2
+regions[oc_involved_3] = OC involved block 3
+regions[oc_missions_heading] = OC missions heading
+regions[oc_mission_1] = OC missions block 1
+regions[oc_mission_2] = OC missions block 2
+regions[oc_mission_3] = OC missions block 3
+regions[oc_members_heading] = OC members heading
+regions[oc_memebers_content] = OC members content
+regions[oc_blog_heading] = OC blog heading
+regions[oc_blog_content] = OC blog content
+regions[oc_footer_social] = OC footer social
+regions[oc_footer_copyright] = OC footer copyright
