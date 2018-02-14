@@ -5,8 +5,13 @@ core = 7.x
 stylesheets[all][] = style.css
 scripts[] = main.js
 
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[content] = Content
+
 ; Define the different regions of the theme
-regions[header] = Header
+regions[oc_header] = Open Charity Header
 regions[oc_featured] = OC Featured section
 regions[oc_events] = OC events section
 regions[oc_involved_heading] = OC involved heading
