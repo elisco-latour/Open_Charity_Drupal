@@ -102,83 +102,95 @@
         </div>
     </header><!-- OC header end -->
     <main class="oc-main_wrapper">
-      <section class="oc-event">
-          <div class="oc-container">
-              <div class=" oc-row oc-event">
-                  <?php print render($page['oc_events']); ?>
+      <div class="oc-main__content">
+          <section class="oc-event">
+              <div class="oc-container">
+                  <div class=" oc-row oc-event">
+                      <?php print render($page['oc_events']); ?>
+                  </div>
               </div>
-          </div>
-      </section><!-- Oc event section end -->
+          </section><!-- Oc event section end -->
 
-      <section class="oc-getinvolved">
-          <div class="oc-container">
-              <div class="oc-row">
-                  <div class="oc-section__header">
-                      <?php print render($page['oc_involved_heading']); ?>
+          <section class="oc-getinvolved">
+              <div class="oc-container">
+                  <div class="oc-row">
+                      <div class="oc-section__header">
+                          <?php print render($page['oc_involved_heading']); ?>
+                      </div>
+                  </div>
+                  <div class="oc-row oc-getinvolved__cards">
+                      <div class="oc-laptop__col--4 oc-mobile__col--12">
+                          <?php print render($page['oc_involved_1']); ?>
+                      </div>
+                      <div class="oc-laptop__col--4 oc-mobile__col--12">
+                          <?php print render($page['oc_involved_2']); ?>
+                      </div>
+                      <div class="oc-laptop__col--4 oc-mobile__col--12">
+                          <?php print render($page['oc_involved_3']); ?>
+                      </div>
                   </div>
               </div>
-              <div class="oc-row oc-getinvolved__cards">
-                  <div class="oc-laptop__col--4 oc-mobile__col--12">
-                      <?php print render($page['oc_involved_1']); ?>
-                  </div>
-                  <div class="oc-laptop__col--4 oc-mobile__col--12">
-                      <?php print render($page['oc_involved_2']); ?>
-                  </div>
-                  <div class="oc-laptop__col--4 oc-mobile__col--12">
-                      <?php print render($page['oc_involved_3']); ?>
-                  </div>
-              </div>
-          </div>
-      </section> <!-- OC Get Involved Section end -->
+          </section> <!-- OC Get Involved Section end -->
 
-      <section class="oc-mission">
-          <div class="oc-container">
-              <div class="oc-row">
-                  <div class="oc-section__header">
-                      <?php print render($page['oc_missions_heading']); ?>
+          <section class="oc-mission">
+              <div class="oc-container">
+                  <div class="oc-row">
+                      <div class="oc-section__header">
+                          <?php print render($page['oc_missions_heading']); ?>
+                      </div>
+                  </div>
+                  <div class="oc-row oc-mission__cards">
+                      <div class="oc-laptop__col--4 oc-mobile__col--12 oc-mission__card">
+                          <?php print render($page['oc_mission_1']); ?>
+                      </div>
+                      <div class="oc-laptop__col--4 oc-mobile__col--12 oc-mission__card">
+                          <?php print render($page['oc_mission_2']); ?>
+                      </div>
+                      <div class="oc-laptop__col--4 oc-mobile__col--12 oc-mission__card">
+                          <?php print render($page['oc_mission_2']); ?>
+                      </div>
+                  </div>
+                  <div class="oc-row">
+                      <div class="oc-section__separator"></div>
                   </div>
               </div>
-              <div class="oc-row oc-mission__cards">
-                  <div class="oc-laptop__col--4 oc-mobile__col--12 oc-mission__card">
-                      <?php print render($page['oc_mission_1']); ?>
-                  </div>
-                  <div class="oc-laptop__col--4 oc-mobile__col--12 oc-mission__card">
-                      <?php print render($page['oc_mission_2']); ?>
-                  </div>
-                  <div class="oc-laptop__col--4 oc-mobile__col--12 oc-mission__card">
-                      <?php print render($page['oc_mission_2']); ?>
-                  </div>
-              </div>
-              <div class="oc-row">
-                  <div class="oc-section__separator"></div>
-              </div>
-          </div>
-      </section> <!-- OC missions section end -->
+          </section> <!-- OC missions section end -->
 
-      <section class="oc-members">
-          <div class="oc-container">
-              <div class="oc-row">
-                  <div class="oc-section__header">
-                      <?php print render($page['members_heading']); ?>
+          <section class="oc-members">
+              <div class="oc-container">
+                  <div class="oc-row">
+                      <div class="oc-section__header">
+                          <?php print render($page['members_heading']); ?>
+                      </div>
+                  </div>
+                  <div class="oc-row oc-members__logos">
+                          <?php print render($page['oc_members_content']); ?>
                   </div>
               </div>
-              <div class="oc-row oc-members__logos">
-                      <?php print render($page['oc_members_content']); ?>
-              </div>
-          </div>
-      </section><!-- OC members section end -->
+          </section><!-- OC members section end -->
 
-      <section class="oc-blog">
-          <div class="oc-container">
-              <div class="oc-row">
-                  <div class="oc-section__header">
-                      <?php print render($page['oc_blog_heading']); ?>
+          <section class="oc-blog">
+              <div class="oc-container">
+                  <div class="oc-row">
+                      <div class="oc-section__header">
+                          <?php print render($page['oc_blog_heading']); ?>
+                      </div>
+                  </div>
+                  <div class="oc-row">
+                      <?php print render($page['content']);  ?>
                   </div>
               </div>
-              <div class="oc-row">
-                  <?php print render($page['content']);  ?>
-              </div>
-          </div>
-      </section> <!-- OC blog section -->
+          </section> <!-- OC blog section -->
 
-    </main>
+          <footer class="oc-footer">
+              <div class="oc-container">
+                  <div class="oc-social">
+                    <?php print render($page['oc_footer_social']); ?>
+                  </div>
+                  <div class="oc-copyright">
+                      <?php print render($page['oc_footer_copyright']); ?>
+                  </div>
+              </div>
+          </footer><!-- En footer -->
+      </div> <!-- End OC main content -->
+    </main><!-- End of the mein -->
