@@ -198,4 +198,5 @@
             <?php print render('oc_drawer_navigation'); ?>
           </nav>
       </div>
+      <div class="oc-main__overlay"></div>
     </main><!-- End of the mein -->
