@@ -386,9 +386,9 @@ OpenCharity components
     position: relative;
 }
 .oc-member{
-    width: calc(20% - 64px);
-    margin-right: 32px;
-    margin-left: 32px;
+    width: calc(20% - 40px);
+    margin-right: 16px;
+    margin-left: 16px;
     height: 80px;
     display: inline-block;
     position: relative;
@@ -402,6 +402,16 @@ OpenCharity components
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+@media screen and ( max-width: 425px) {
+ .oc-member {
+   width: calc(100% - 40px);
+   height: 160px;
+   display: block;
+   margin-top: 16px;
+   margin-bottom: 16px;
+ }
 }
 
 /* ---- Open Charity footer section ------*/
