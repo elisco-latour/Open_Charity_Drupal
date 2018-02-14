@@ -84,6 +84,15 @@
                         </a>
                       <?php endif; ?>
                     </div>
+                    <div class="oc-laptop__col--9">
+                        <nav class="oc-main__menu">
+                            <?php print theme('links__system_main_menu',
+                            array('links' => $main_menu,
+                                  'attributes' => array('id' => 'main-menu',
+                                  'class' => array('links', 'inline', 'clearfix')),
+                                  'heading' => t(''))); ?>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
