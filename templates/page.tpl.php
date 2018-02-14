@@ -87,4 +87,8 @@
                 </div>
             </div>
         </div>
+        <div class="oc-drawer__trigger-container">
+            <div class="oc-drawer__trigger">
+            </div>
+        </div>
     </header>
