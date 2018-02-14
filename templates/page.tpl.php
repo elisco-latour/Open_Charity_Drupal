@@ -100,7 +100,7 @@
             <div class="oc-drawer__trigger">
             </div>
         </div>
-    </header>
+    </header><!-- OC header end -->
     <main class="oc-main_wrapper">
       <section class="oc-event">
           <div class="oc-container">
@@ -108,5 +108,27 @@
                   <?php print render($page['oc_events']); ?>
               </div>
           </div>
+      </section><!-- Oc event section end -->
+
+      <section class="oc-getinvolved">
+          <div class="oc-container">
+              <div class="oc-row">
+                  <div class="oc-section__header">
+                      <?php print render($page['oc_involved_heading']); ?>
+                  </div>
+              </div>
+              <div class="oc-row oc-getinvolved__cards">
+                  <div class="oc-laptop__col--4 oc-mobile__col--12">
+                      <?php print render($page['oc_involved_1']); ?>
+                  </div>
+                  <div class="oc-laptop__col--4 oc-mobile__col--12">
+                      <?php print render($page['oc_involved_2']); ?>
+                  </div>
+                  <div class="oc-laptop__col--4 oc-mobile__col--12">
+                      <?php print render($page['oc_involved_3']); ?>
+                  </div>
+              </div>
+          </div>
       </section>
+
     </main>
