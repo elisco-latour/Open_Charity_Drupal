@@ -44,7 +44,6 @@
  */
 ?><!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php print $language->language; ?>" version="XHTML+RDFa 1.0" dir="<?php print $language->dir; ?>"<?php print $rdf_namespaces; ?>>
-
 <head profile="<?php print $grddl_profile; ?>">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
   <?php print $head; ?>

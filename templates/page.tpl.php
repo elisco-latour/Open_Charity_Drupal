@@ -72,8 +72,7 @@
  * @ingroup themeable
  */
 ?>
-
-    <header class="oc-header">
+<header class="oc-header">
         <div class="oc-navigation">
             <div class="oc-container">
                 <div class="oc-row">
@@ -102,7 +101,15 @@
         </div>
     </header><!-- OC header end -->
     <main class="oc-main_wrapper">
-      <div class="oc-main__content">
+      <div class="oc-content">
+        <section class="oc-hero">
+            <div class="oc-container">
+                   <?php print render($page['oc_feature_title']); ?>
+                <div class="oc-hero__description">
+                  <?php print render($page['oc_featured']); ?>
+                </div>
+            </div>
+        </section>
           <section class="oc-event">
               <div class="oc-container">
                   <div class=" oc-row oc-event">
@@ -147,7 +154,7 @@
                           <?php print render($page['oc_mission_2']); ?>
                       </div>
                       <div class="oc-laptop__col--4 oc-mobile__col--12 oc-mission__card">
-                          <?php print render($page['oc_mission_2']); ?>
+                          <?php print render($page['oc_mission_3']); ?>
                       </div>
                   </div>
                   <div class="oc-row">
@@ -160,7 +167,7 @@
               <div class="oc-container">
                   <div class="oc-row">
                       <div class="oc-section__header">
-                          <?php print render($page['members_heading']); ?>
+                          <?php print render($page['oc_members_heading']); ?>
                       </div>
                   </div>
                   <div class="oc-row oc-members__logos">
@@ -195,8 +202,7 @@
       </div> <!-- End OC main content -->
       <div class="oc-drawer">
           <nav class="oc-drawer__navigation">
-            <?php print render('oc_drawer_navigation'); ?>
+            <?php print render($page['oc_drawer_navigation']); ?>
           </nav>
       </div>
-      <div class="oc-main__overlay"></div>
     </main><!-- End of the mein -->

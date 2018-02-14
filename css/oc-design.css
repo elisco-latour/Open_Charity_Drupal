@@ -143,7 +143,7 @@ OpenCharity components
 .oc-hero{
     margin: 0;
     padding: 96px 0;
-    background-image: url(./images/hero.jpg);
+    background-image: url(../images/hero.jpg);
     background-position: center top;
     background-size: cover;
     height: auto;

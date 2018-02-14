@@ -2,7 +2,7 @@ name = OpenCharity
 description = A clean and responsive theme for Open Charity
 version = VERSION
 core = 7.x
-stylesheets[all][] = oc-design.css
+stylesheets[all][] = css/oc-design.css
 scripts[] = oc-main.js
 
 regions[help] = Help
@@ -12,6 +12,7 @@ regions[content] = Content
 
 ; Define the different regions of the theme
 regions[oc_header] = Open Charity Header
+regions[oc_feature_title] = OC Featured title
 regions[oc_featured] = OC Featured section
 regions[oc_events] = OC events section
 regions[oc_involved_heading] = OC involved heading
