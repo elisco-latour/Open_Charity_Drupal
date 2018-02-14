@@ -168,5 +168,17 @@
           </div>
       </section><!-- OC members section end -->
 
-      
+      <section class="oc-blog">
+          <div class="oc-container">
+              <div class="oc-row">
+                  <div class="oc-section__header">
+                      <?php print render($page['oc_blog_heading']); ?>
+                  </div>
+              </div>
+              <div class="oc-row">
+                  <?php print render($page['content']);  ?>
+              </div>
+          </div>
+      </section> <!-- OC blog section -->
+
     </main>
