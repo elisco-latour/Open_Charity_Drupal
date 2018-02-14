@@ -193,4 +193,9 @@
               </div>
           </footer><!-- En footer -->
       </div> <!-- End OC main content -->
+      <div class="oc-drawer">
+          <nav class="oc-drawer__navigation">
+            <?php print render('oc_drawer_navigation'); ?>
+          </nav>
+      </div>
     </main><!-- End of the mein -->
