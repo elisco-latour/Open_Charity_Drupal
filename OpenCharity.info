@@ -1,0 +1,6 @@
+name = OpenCharity
+description = A clean and responsive theme for Open Charity
+version = VERSION
+core = 7.x
+stylesheets[all][] = style.css
+scripts[] = main.js
