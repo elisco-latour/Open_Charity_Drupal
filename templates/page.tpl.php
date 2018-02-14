@@ -129,6 +129,29 @@
                   </div>
               </div>
           </div>
-      </section>
+      </section> <!-- OC Get Involved Section end -->
 
+      <section class="oc-mission">
+          <div class="oc-container">
+              <div class="oc-row">
+                  <div class="oc-section__header">
+                      <?php print render($page['oc_missions_heading']); ?>
+                  </div>
+              </div>
+              <div class="oc-row oc-mission__cards">
+                  <div class="oc-laptop__col--4 oc-mobile__col--12 oc-mission__card">
+                      <?php print render($page['oc_mission_1']); ?>
+                  </div>
+                  <div class="oc-laptop__col--4 oc-mobile__col--12 oc-mission__card">
+                      <?php print render($page['oc_mission_2']); ?>
+                  </div>
+                  <div class="oc-laptop__col--4 oc-mobile__col--12 oc-mission__card">
+                      <?php print render($page['oc_mission_2']); ?>
+                  </div>
+              </div>
+              <div class="oc-row">
+                  <div class="oc-section__separator"></div>
+              </div>
+          </div>
+      </section> <!-- OC missions section end -->
     </main>
