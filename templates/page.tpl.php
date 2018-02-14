@@ -101,3 +101,12 @@
             </div>
         </div>
     </header>
+    <main class="oc-main_wrapper">
+      <section class="oc-event">
+          <div class="oc-container">
+              <div class=" oc-row oc-event">
+                  <?php print render($page['oc_events']); ?>
+              </div>
+          </div>
+      </section>
+    </main>
