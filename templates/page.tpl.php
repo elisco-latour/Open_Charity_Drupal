@@ -84,33 +84,7 @@
                         </a>
                       <?php endif; ?>
                     </div>
-                    <div class="oc-laptop__col--9">
-                        <nav class="oc-main__menu">
-                            <!--<a href="#" class="oc-menu__item">about open charity</a>
-                            <a href="#" class="oc-menu__item">the blog</a>
-                            <a href="#" class="oc-menu__item oc-button">join us</a> -->
-                            <?php print theme('links__system_main_menu',
-                            array('links' => $main_menu,
-                                  'attributes' => array('id' => 'main-menu',
-                                  'class' => array('links', 'inline', 'clearfix')),
-                                  'heading' => t(''))); ?>
-                        </nav>
-                    </div>
                 </div>
             </div>
         </div>
-        <div class="oc-drawer__trigger-container">
-            <div class="oc-drawer__trigger">
-            </div>
-        </div>
     </header>
-    <main class="oc-main_wrapper">
-      <section class="oc-event">
-          <div class="oc-container">
-              <div class=" oc-row oc-event">
-                  <?php print render($page['oc_events']); ?>
-              </div>
-          </div>
-      </section>
-  </section>
-    </main>
