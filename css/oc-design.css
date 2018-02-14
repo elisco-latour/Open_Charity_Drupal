@@ -630,3 +630,34 @@ OpenCharity components
 .region{
   width: 100%;
 }
+
+.node-article {
+  width: calc( 25% - 40px );
+  display: inline-block;
+  margin: 0 16px;
+}
+
+.node-article h2{
+  font-size: 1.275em;
+}
+.node-article h2 a{
+  color: #18c4d9;
+      padding-bottom: 8px;
+}
+
+.node-readmore a {
+  color: #18c4d9;
+}
+
+.node-article .submitted,
+.node-article p,
+.comment_forbidden,
+.oc-mission p{
+  color: #64697f;
+}
+
+.node-article .submitted a,
+.comment-add a,
+.comment_forbidden a {
+  color: #18c4d9;
+}
