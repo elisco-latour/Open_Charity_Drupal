@@ -132,7 +132,7 @@ OpenCharity components
 
 .oc-button {
     padding: 8px 24px;
-    border: 2px solid #18c4d9;
+    border: 1px solid #18c4d9;
     color: #18c4d9;
     font-size: 0.875em;
     text-transform: uppercase;
@@ -718,9 +718,9 @@ OpenCharity components
   padding: 16px;
 }
 
-.oc-main__menu li:last-of-type{
+.oc-main__menu li:last-of-type a{
   padding: 8px 24px;
-  border: 2px solid #18c4d9;
+  border: 1px solid #18c4d9;
   color: #18c4d9;
   font-size: 0.875em;
   text-transform: uppercase;
