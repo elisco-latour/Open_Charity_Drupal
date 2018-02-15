@@ -659,18 +659,19 @@ OpenCharity components
   width: 100%;
 }
 
-.node-article {
+
+.oc-post {
   width: calc( 25% - 40px );
   display: inline-block;
   margin: 0 16px;
 }
 
-.node-article h2{
-  font-size: 1.275em;
+.oc-post h2{
+  font-size: 0.975em;
   border-bottom: 1px solid #f3f4f6;
   padding-bottom: 32px;
 }
-.node-article h2 a{
+.oc-post h2 a{
   color: #18c4d9;
   padding-bottom: 8px;
 }
@@ -679,38 +680,38 @@ OpenCharity components
   color: #18c4d9;
 }
 
-.node-article .submitted,
-.node-article p,
+.oc-post .submitted,
+.oc-post p,
 .comment_forbidden,
 .oc-mission p{
   color: #64697f;
 }
 
-.node-article p {
+.oc-post p {
   border-bottom: 1px solid #f3f4f6;
   padding-bottom: 32px;
 }
 
-.node-article .submitted a,
+.oc-post .submitted a,
 .comment-add a,
 .comment_forbidden a {
   color: #18c4d9;
 }
 
 @media screen and ( max-width: 768px) {
-  .node-article{
+  .oc-post{
     width: calc(50% - 40px);
     margin-bottom: 32px;
   }
 }
 
 @media screen and ( max-width: 425px) {
-  .node-article{
+  .oc-post{
     width: calc(100% - 32px);
     margin-bottom: 32px;
   }
 }
-
+*/
 .oc-main__menu li a{
   text-transform: uppercase;
   text-decoration: none;
@@ -724,4 +725,24 @@ OpenCharity components
   color: #18c4d9;
   font-size: 0.875em;
   text-transform: uppercase;
+}
+
+
+#block-menu-menu-drawer-menu ul {
+  padding-left: 0;
+}
+#block-menu-menu-drawer-menu h2{
+  visibility: hidden;
+}
+#block-menu-menu-drawer-menu ul li a{
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #565659;
+  padding: 32px;
+  border-top: .3px solid #e1e2e5;
+  border-bottom: .3px solid #e1e2e5;
+  transition-property: background-color;
+  transition-duration: .2s;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
 }

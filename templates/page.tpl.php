@@ -165,11 +165,10 @@
 
           <section class="oc-members">
               <div class="oc-container">
-                  <div class="oc-row">
+
                       <div class="oc-section__header">
                           <?php print render($page['oc_members_heading']); ?>
                       </div>
-                  </div>
                   <div class="oc-row oc-members__logos">
                           <?php print render($page['oc_members_content']); ?>
                   </div>
