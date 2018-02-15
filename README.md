@@ -5,7 +5,7 @@ All the HTML and css have been created from scratch.
 
 ### How i build this theme:
 First i figured out that, drupal depends a lot on layout and te design of each component.
- - I choose to build the whole theme, in a static manner with HTML, CSS and JavaScript. 
+ - I choose to build the whole theme, in a static manner with HTML, CSS and JavaScript. [See everything about the static theme ](https://github.com/elisco-latour/Open_Charity_HTML) 
  - Then based on that static version of the theme, i use drupal paradigms to layout the theme.
  - And major components as drupal custom blocks
  
